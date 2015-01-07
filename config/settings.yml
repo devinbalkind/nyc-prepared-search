@@ -66,31 +66,104 @@ feedback_email:
 #     - text for link 2
 homepage_links:
   general:
-    # Government Assistance:
-    #   - Health Insurance
-    #   - Medicare
-    #   - SFMNP (Food vouchers for seniors)
-    #   - SNAP (Food Stamps)
-    #   - 'WIC (Women, Infants, & Children)'
+    Financial Assistance:
+      - Individual Financial Assistance
+      - Transportation Assistance
+      - Other Financial Assistance
+      - Mortgage Assistance
+      - Rental Assistance
+      - Construction Assistance
+      - Utilities Assistance
+      - Emergency Assistance
+      - Other Financial Assistance for Housing
 
-    # Children, Teens, & Families:
-    #   - Abuse Prevention
-    #   - Child Care
-    #   - Counseling
-    #   - Discrimination
-    #   - Mentoring Programs
-    #   - Youth Development
-
-  emergency:
-    Emergency:
-      - Psychiatric Emergency
-      - Emergency Food
-      - Emergency Shelter
-      - Hotlines
-
-    Reporting:
+    Services:
+      - Language
+      - Legal
+      - Medical/Health Care
+      - Child Care
+      - Adult Care
+      - Senior Care
+      - Access & Functional Needs
+      - Employment
+      - Financial
+      - Tax
+      - IT
+      - Case Management
+      - Mental Health & Crisis Counseling
+      - Document & Certificate Assistance
+      - Benefits Assistance
+      - Advocacy
+      - Business Services
+      - Mediation
+      - Food/Meals & Pantry
+      - Animals
+      - Housing Assistance
+      - Transportation Services
+      - Other Services
+      - For Home Owners
+      - For Renters
+      - Eviction Prevention
+      - Foreclosure Prevention
+      - Other Housing Services
+      - Spiritual Care
+      - Referral Services
+      - Repairs
+      - Temporary Housing
+      - Housing Relocation
+      - Disaster Relief Center
+      - Disaster Relief Coordination
+      - Training
       - Domestic Violence
-      - Child Abuse
+      - Insurance Assistance
+      - Volunteering
+      - Weatherization
+      - Mold/Muck-Out & Debris Cleaning
+      - Construction
+      - Financial Councelling
+      - Other Services for Home Owners
+
+    Material Donations:
+      - Clothing
+      - Food
+      - Furniture
+      - Rebuild Items
+      - Mattresses
+      - Appliances
+      - Household Goods
+      - Transportation Donations
+      - Other Material Donations
+      - Construction Supplies & Tools
+      - Debris and Clean-Up Supplies & Tools
+      - Building Materials
+      - Other Material Donation for Housing
+
+    Assistance for Organizations:
+      - Warehousing
+      - Volunteers Housing
+      - Volunteers Coordination
+      - Disaster Preparedness
+      - Donations Management
+      - Resources for Non-profits
+      - Resources for Municipalities
+      - Resources for Faith-based Institutions
+      - Non-Profit Financial Assistance
+      - Resources for Small Businesses
+      - Small Business Financial Assistance
+
+    City Resources:
+      - Government Agencies
+      - Elected Officials
+      - Media
+      - Community Boards
+      - Civic Organizations
+
+#  emergency:
+#    Emergency:
+#
+#    Reporting:
+
+  
 
 ####################
 #
