@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
+ruby '2.1.5'
 gem 'rails', '~> 4.1.4'
 
 # FRONT END
@@ -21,7 +21,7 @@ gem 'uglifier'
 gem 'requirejs-rails', '~> 0.9.2'
 
 # For HAML HTML view templates.
-gem 'haml-rails', '~> 0.5.3'
+gem 'haml-rails'
 
 # SERVER
 
@@ -41,7 +41,7 @@ gem 'kgio'
 gem 'rack-rewrite', '~> 1.5.0'
 
 # For Google translation API.
-gem 'google-api-client', '~> 0.7.1'
+gem 'google-api-client', '~> 0.8.1'
 
 # App config and ENV variables for heroku.
 gem 'figaro', '~> 1.0.0'
@@ -56,22 +56,23 @@ end
 
 # dev and debugging tools
 group :development do
-  gem 'quiet_assets', '~> 1.0.2'
-  gem 'better_errors', '~> 1.1.0'
+  gem 'quiet_assets'
+  gem 'better_errors'
   gem 'binding_of_caller', '~> 0.7.2', platforms: [:mri_19, :rbx]
 
   # For mocking emails for sending.
-  gem 'letter_opener', '~> 1.2.0'
+  gem 'letter_opener'
 
   # For linting JS with `rake jshint`.
-  gem 'jshintrb'
+  gem 'jshint'
 
   # For code documentation, run `yard --help` for list of commands.
   gem 'yard'
 
   gem 'spring'
   gem 'spring-commands-rspec'
-  gem 'listen', '~> 1.0'
+  # Required by spring to turn on event-based file system listening.
+  gem 'spring-watcher-listen'
 end
 
 group :test do
@@ -79,7 +80,7 @@ group :test do
   gem 'capybara', '~> 2.4.1'
   gem 'poltergeist'
   gem 'vcr', '~> 2.9.0'
-  gem 'webmock', '~> 1.18.0'
+  gem 'webmock', '~> 1.20.0'
   gem 'email_spec', '~> 1.6.0'
   gem 'haml-lint'
 
@@ -88,5 +89,5 @@ group :test do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails', '~> 3.1'
 end

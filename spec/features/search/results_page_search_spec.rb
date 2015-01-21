@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 feature 'searching from results page', :vcr do
-
   before { visit('/locations') }
 
   context 'when search returns results' do
@@ -20,10 +19,16 @@ feature 'searching from results page', :vcr do
 
     it 'displays the location phone number' do
       expect(page).to have_content('(650) 372-6200')
+      expect(page).not_to have_content('(650) 372-6200 x 123 voice Information')
     end
 
-    it 'displays the location address' do
-      expect(page).to have_content('2013 Avenue of the fellows')
+    it 'displays the location phone extension' do
+      expect(page).to have_content('x 123')
+    end
+
+    it 'displays the location physical address' do
+      address = '2013 Avenue of the fellows, Suite 100, San Francisco, CA 94103'
+      expect(page).to have_content(address)
     end
 
     it 'displays the location short description' do
@@ -100,6 +105,37 @@ feature 'searching from results page', :vcr do
       search(keyword: 'Samaritan House')
       first('#list-view li').click_link('Samaritan House')
       expect(page).to have_link('Redwood City Free Medical Clinic')
+    end
+  end
+
+  context 'when organization detail box is shown' do
+    before { search(org_name: 'Example Agency') }
+    it 'displays organization name in detail box' do
+      expect(find('.organization-detail')).to have_content('Example Agency')
+    end
+
+    it 'displays organization alternative name' do
+      expect(find('.organization-detail')).to have_content('(Alternate Agency Name)')
+    end
+
+    it 'displays organization website address' do
+      expect(find('.organization-detail')).to have_content('example.org')
+    end
+
+    it 'displays organization email address' do
+      expect(find('.organization-detail')).to have_content('info@example.org')
+    end
+
+    it 'displays organization incorporation date' do
+      expect(find('.organization-detail')).to have_content('Incorporated 1970')
+    end
+
+    it 'displays organization accreditation list' do
+      expect(find('.organization-detail')).to have_content('BBB')
+    end
+
+    it 'displays organization licenses list' do
+      expect(find('.organization-detail')).to have_content('State Board')
     end
   end
 

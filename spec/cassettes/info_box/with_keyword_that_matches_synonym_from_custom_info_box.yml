@@ -23,7 +23,7 @@ http_interactions:
       Connection:
       - close
       Date:
-      - Mon, 20 Oct 2014 21:38:16 GMT
+      - Fri, 21 Nov 2014 22:26:35 GMT
       Status:
       - 200 OK
       X-Frame-Options:
@@ -44,14 +44,14 @@ http_interactions:
       Etag:
       - '"d751713988987e9331980363e24189ce"'
       X-Request-Id:
-      - 7facb1d1-5d63-4881-b0ee-ce98261ea06f
+      - 469f1dfa-a625-45a8-a53b-a266873a9de6
       X-Runtime:
-      - '0.045886'
+      - '0.020710'
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Mon, 20 Oct 2014 21:38:15 GMT
+  recorded_at: Fri, 21 Nov 2014 22:26:36 GMT
 recorded_with: VCR 2.9.2
