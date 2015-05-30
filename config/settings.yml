@@ -66,6 +66,43 @@ feedback_email:
 #     - text for link 2
 homepage_links:
   general:
+
+    General Services:
+      - Disaster Case Management
+      - Mental Health & Crisis Counseling
+      - Senior and Adult Care
+      - Child Care
+      - Medical/Health Care
+      - Access & Functional Needs
+      - Benefits Assistance
+      - Food/Meals & Pantry
+      - Transportation Services
+      - Referral Services
+      - Emotional and Spiritual Care
+      - Legal and Mediation
+    
+    Housing Services
+      - Housing Assistance
+      - Temporary Housing
+      - Housing Relocation
+      - Home Repair
+      - Mold/Muck-Out & Debris Cleaning
+      - Eviction and Foreclosure Prevention
+      - Repairs
+      - Other Housing Services
+      
+    Other Services
+      - Language
+      - Employment
+      - Business Services
+      - Other Services
+      - Training
+      - Domestic Violence
+      - Insurance Assistance
+      - Volunteering
+      - Financial Councelling
+      - Financial Counseling
+      
     Financial Assistance:
       - Individual Financial Assistance
       - Transportation Assistance
@@ -76,38 +113,6 @@ homepage_links:
       - Utilities Assistance
       - Emergency Assistance
       - Other Financial Assistance for Housing
-
-    Services:
-      - Language
-      - Medical/Health Care
-      - Child Care
-      - Access & Functional Needs
-      - Employment
-      - Mental Health & Crisis Counseling
-      - Benefits Assistance
-      - Business Services
-      - Food/Meals & Pantry
-      - Housing Assistance
-      - Transportation Services
-      - Other Services
-      - Other Housing Services
-      - Referral Services
-      - Repairs
-      - Temporary Housing
-      - Housing Relocation
-      - Training
-      - Domestic Violence
-      - Insurance Assistance
-      - Volunteering
-      - Mold/Muck-Out & Debris Cleaning
-      - Financial Councelling
-      - Eviction and Foreclosure Prevention
-      - Emotional and Spiritual Care
-      - Disaster Case Management
-      - Financial Counseling
-      - Senior and Adult Care
-      - Legal and Mediation
-      - Home Repair
 
     Material Donations:
       - Clothing
