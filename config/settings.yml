@@ -67,7 +67,7 @@ feedback_email:
 homepage_links:
   general:
 
-    General Services:
+    "General Services":
       - Disaster Case Management
       - Mental Health & Crisis Counseling
       - Senior and Adult Care
@@ -80,8 +80,8 @@ homepage_links:
       - Referral Services
       - Emotional and Spiritual Care
       - Legal and Mediation
-    
-    Housing Services
+
+    "Housing Services":
       - Housing Assistance
       - Temporary Housing
       - Housing Relocation
@@ -90,8 +90,8 @@ homepage_links:
       - Eviction and Foreclosure Prevention
       - Repairs
       - Other Housing Services
-      
-    Other Services
+
+    "Other Services":
       - Language
       - Employment
       - Business Services
@@ -102,8 +102,8 @@ homepage_links:
       - Volunteering
       - Financial Councelling
       - Financial Counseling
-      
-    Financial Assistance:
+
+    "Financial Assistance":
       - Individual Financial Assistance
       - Transportation Assistance
       - Other Financial Assistance
@@ -114,7 +114,7 @@ homepage_links:
       - Emergency Assistance
       - Other Financial Assistance for Housing
 
-    Material Donations:
+    "Material Donations":
       - Clothing
       - Food
       - Furniture and Appliances
@@ -122,7 +122,7 @@ homepage_links:
       - Household Goods
       - Building Materials
 
-    Assistance for Organizations:
+    "Assistance for Organizations":
       - Volunteers Housing
       - Volunteers Coordination
       - Disaster Preparedness
