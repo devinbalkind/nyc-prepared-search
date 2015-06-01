@@ -100,19 +100,17 @@ homepage_links:
       - Domestic Violence
       - Insurance Assistance
       - Volunteering
-      - Financial Councelling
       - Financial Counseling
 
     "Financial Assistance":
       - Individual Financial Assistance
       - Transportation Assistance
-      - Other Financial Assistance
       - Mortgage Assistance
       - Rental Assistance
       - Construction Assistance
       - Utilities Assistance
       - Emergency Assistance
-      - Other Financial Assistance for Housing
+      - Financial Assistance for Housing
 
     "Material Donations":
       - Clothing
@@ -130,7 +128,7 @@ homepage_links:
       - For Municipalities
       - For Non-profits
       - For Faith-based Institutions
-      - For Small-businesses
+      - For Small Businesses
 
 
 #  emergency:
